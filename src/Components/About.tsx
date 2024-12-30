@@ -7,7 +7,7 @@ import { useDisclosure } from "@mantine/hooks";
 import { IconDownload } from "@tabler/icons-react";
 import Particles from "./magicui/Particles";
 import { NeonGradientCard } from "./magicui/neon-gradient-card";
-import me from '../../src/img/m.png'
+import me from '../../src/img/tt.jpg'
 const About = () => {
     const [opened, { open, close }] = useDisclosure(false);
     const btn =useMatches({
