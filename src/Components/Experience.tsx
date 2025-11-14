@@ -1,7 +1,8 @@
 import { Text, Timeline, useMatches } from "@mantine/core";
 import { IconBriefcaseFilled, IconGitBranch, IconGitCommit, IconGitPullRequest, IconMessageDots } from "@tabler/icons-react";
 import { ExperienceInfo } from "../User";
-import f from '../img/f.png'
+import { useMediaQuery } from "@mantine/hooks";
+
 const TimelineItem = (items: any) => {
     const size=useMatches({
         xs:15,
@@ -11,7 +12,12 @@ const TimelineItem = (items: any) => {
         key={index} className="!pt-12 !mb-2 sm-mx:!p-1" bullet={<IconBriefcaseFilled className="!text-bgColor" size={size} />} >
         <div className="border shadow-[0_0_10px_0_#64FFDA50] hover:-translate-y-2 transition transform duration-300 ease-in-out flex flex-col gap-2 border-primaryColor p-4 rounded-2xl sm-mx:p-2">
             <div className="flex gap-2 items-center">
-                <img className="rounded-lg w-16 md-mx:w-14" src={f} alt="Company" />
+                <img className="rounded-lg w-16 md-mx:w-14" src={item.image}             
+                alt={item.company ? `${item.company} logo` : "Company logo"}
+                 loading="lazy"
+
+
+ />
                 <div className="flex flex-col">
                     <div className="text-white text-2xl font-semibold sm-mx:text-xl xs-mx:text-lg xsm-mx:text-base">{item.role}</div>
                     <div className="text-lg font-semibold text-textColor md-mx:text-base sm-mx:text-sm xs-mx:text-xs">{item.company} &#x2022; {item.date}</div>

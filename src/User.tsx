@@ -67,23 +67,40 @@ const CertificatInfo = [
 ]
 
 const SkillInfo = [
+
+      {
+        title: "Backend",
+        skills: ["Spring Boot", "Spring Data", "Spring Security", "Spring Cloud", "Hibernate JPA", "JEE", "Laravel"]
+    },
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "Bootstrap"
-        ]
+        skills: ["NextJS", "ReactJS", "Angular", "Tailwind CSS", "Bootstrap"]
     },
-    {
-        title: "Backend",
-        skills: ["Springboot", "JEE" ,"MySQL", "APIs RESTful", "Microservices"]
-    },
+  
     {
         title: "Languages",
-        skills: ["Java", "Python", "Php", "JavaScript",]
+        skills: ["java", "JavaScript", "TypeScript", "Python", "php", "c", "Golang"]
+
     },
     {
-        title: "Tools",
-        skills: ["Git", "Github", "VS Code", "Postman"]
+        title: "DEVOPS",
+        skills: ["Git", "GitHub", "Docker", "Kubernetes", "JUnit", "GitLab (CI/CD)", "Maven", "Postman", "Swagger"]
+    } ,
+
+
+ {
+        title: "DATABASES",
+        skills: ["MySQL", "SQL Server", "PostgreSQL", "Oracle Database", "MongoDB", "InfluxDB", "Elasticsearch"]
+    } ,
+     {
+        title: "WEB SERVICES ",
+        skills: ["RESTful", "SOAP", "GraphQL", "gRPC"]
     }
+,   {
+        title: "PROJECT MANAGEMENT ",
+        skills: ["Scrum Agile", "Jira"]
+    }
+
 ]
 const socialLinks = [
     { link: "https://github.com/MoncefBahja", icon: IconBrandGithub },
@@ -95,11 +112,39 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "Stage : Java Developer ",
+        role: "INTERNSHIP : Java Developer ",
+        company: "Marketing confort",
+        date: " 2025 - 6 months",
+        image: "MJ.jpg",
+        desc: "Design and implementation of microservices-based solutions for optimizing internal processes of an IT organization.",
+        skills: ["Java" , "React/Next.js", "Spring (Boot, Data, Security, Cloud)"," Hibernate/JPA", "PostgreSQL", "Jira", "Swagger", "Postman",
+"Nexus"," Amazon S3", "Maven", "Kubernetes", "GitLab CI/CD"]
+    },
+     {
+        role: "INTERNSHIP : Java Developer ",
+        company: "Xhub",
+        date: " 2023 - Present",
+            image: "xhub_logo.jpg",
+        desc: "Design and implementation of an e-commerce platform.",
+        skills: ["PHP (Laravel)", "JavaScript (React.js)", "MySQL", "Git (GitHub)", "Postman", "Docker", "Jira"]
+    },
+     {
+        role: "INTERNSHIP : Java Developer ",
+        company: "Atos",
+        date: " 2023 - Present",
+            image: "atos_logo.jpg",
+
+        desc: "Development and maintenance of a healthcare services management application using a microservices architecture.",
+        skills: ["Java 11", "React/Redux", "Spring (Boot, MVC, Data, Security)", "Hibernate/JPA", "PostgreSQL", "Swagger", "Kafka", "Maven",
+"Kubernetes", "GitLab CI/CD"]
+    },
+     {
+        role: "INTERNSHIP : Java Developer ",
         company: "Agence De Voyage Qafilat Tayba",
         date: " 2023 - Present",
-        desc: "working on the development of an application for personnel management. My key responsibilities include drafting a detailed functional specification document, developing interfaces for personnel management, conducting functional and integration testing, and preparing a user guide for the application. The technical environment involves Java, React, SQL Server, Visual Studio, and GitHub.",
-        skills: ["Java", "React JS", "SQL Server", "Visual Studio", "GitHub"]
+            image: "f.png",
+        desc: "working on the development of an application for personnel management.",
+        skills: ["php", "React JS", "SQL Server", "Visual Studio", "GitHub"]
     },
 ]
 const Slugs = [

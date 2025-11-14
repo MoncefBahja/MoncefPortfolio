@@ -26,11 +26,11 @@ const HomePage = () => {
     <Toaster/>
         <Header />
         <About />
+        <Experience />
         <Projects />
         <Skills />
         <Certificat/>
         <Formation/>
-        <Experience />
         <Contact />
         <Footer/>
         <Mail />

@@ -6,7 +6,7 @@ import { useMediaQuery } from "@mantine/hooks";
 import { em } from "@mantine/core";
 import { useEffect, useState } from "react";
 
-const links=["About","Projects","Skills","Certificate","Formation","Experience","Contact"];
+const links=["About","Experience","Skills","Certificate","Formation","Projects","Contact"];
 const navLinks=(col:Boolean, clicked:any)=>{
     const handleClick=()=>{
         if(clicked)clicked();
