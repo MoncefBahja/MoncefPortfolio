@@ -7,18 +7,18 @@ const FormationInfo = [
         program: "Master's degree Applied Computer science, Offshoring",
         institution: "Mohammed V University of Rabat",
         date: "2023 - 2025",
-        desc: "Spécialisation en systèmes distribués et intelligence artificielle, avec une focalisation sur les architectures microservices et l'apprentissage automatique.",
-        link: "https://www.linkedin.com/school/facult%C3%A9-des-sciences-de-rabat/",
+        desc: "Specialized in distributed systems and mobile application development, with a strong focus on microservices architectures and machine learning technologies.",
+        link: "http://www.fsr.ac.ma/content/informatique-appliquee-offshoring",
         level: "Master",
-        status: "In Progress"
+        status: "Completed"
     },
     {
         program: "Licence Applied Computer Science and Mathematics",
         institution: "Mohammed V University of Rabat",
         date: "2020 - 2023",
-        desc: "Études fondamentales en algorithmique, programmation, et bases de données, avec des projets pratiques en Java et Python.",
+        desc: "Fundamental studies in algorithms, programming, and databases, with practical projects in Java and Python and php.",
         link: "https://www.linkedin.com/school/facult%C3%A9-des-sciences-de-rabat/",
-        level: "Bachelor",
+        level: "Licence",
         status: "Completed"
     },
 ];
@@ -100,15 +100,37 @@ const TimelineItemFormation = (items: any) => {
                     <div className="flex flex-wrap gap-2 mb-6">
                         {item.level === "Master" ? (
                             <>
+                               <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    Software Engineering and Quality
+                                </span>
                                 <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
                                     Distributed Systems
                                 </span>
                                 <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
-                                    AI & ML
+                                    Security and Network Services
                                 </span>
                                 <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
-                                    Microservices
+                                    Mobile and Cloud computing
                                 </span>
+                                 <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    Data Mining and Business Intelligence
+                                </span>
+                                <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    Concurrent Programming in Java
+                                </span>
+                                 <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    Machine Learning
+                                </span>
+                                <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    Internet of Things 
+                                </span>
+                                <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    Mobile Development
+                                </span>
+                                <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    Crypto and Blockchain
+                                </span>
+
                             </>
                         ) : (
                             <>
@@ -119,7 +141,13 @@ const TimelineItemFormation = (items: any) => {
                                     Databases
                                 </span>
                                 <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
-                                    Java & Python
+                                    Java & Python & JavaScript & PHP & C
+                                </span>
+                                <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    Data Structures
+                                </span>
+                                 <span className="px-3 py-1 bg-primaryColor/10 border border-primaryColor/30 rounded-full text-xs font-medium text-primaryColor">
+                                    UML Design
                                 </span>
                             </>
                         )}
@@ -141,7 +169,7 @@ const TimelineItemFormation = (items: any) => {
                                 className="hover:bg-primaryColor/10 hover:scale-[1.02] transition-all duration-300 font-semibold"
                             >
                                 <span className="flex items-center justify-center gap-2">
-                                    Visit Institution
+                                    Visit 
                                     <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                                     </svg>
@@ -194,22 +222,8 @@ const Formation = () => {
                 </Timeline>
             </div>
 
-            {/* Statistiques (optionnel) */}
-            <div className="mt-16 grid grid-cols-3 gap-6 max-w-3xl mx-auto sm-mx:grid-cols-1">
-                <div className="text-center p-6 bg-gradient-to-br from-primaryColor/5 to-transparent border border-primaryColor/20 rounded-xl">
-                    <div className="text-3xl font-bold text-primaryColor mb-2">5+</div>
-                    <div className="text-sm text-textColor/70">Years of Study</div>
-                </div>
-                <div className="text-center p-6 bg-gradient-to-br from-primaryColor/5 to-transparent border border-primaryColor/20 rounded-xl">
-                    <div className="text-3xl font-bold text-primaryColor mb-2">2</div>
-                    <div className="text-sm text-textColor/70">Degrees</div>
-                </div>
-                <div className="text-center p-6 bg-gradient-to-br from-primaryColor/5 to-transparent border border-primaryColor/20 rounded-xl">
-                    <div className="text-3xl font-bold text-primaryColor mb-2">Top</div>
-                    <div className="text-sm text-textColor/70">University</div>
-                </div>
-            </div>
-        </div>
+           
+        </div> 
     );
 };
 

@@ -78,35 +78,35 @@ const SkillInfo = [
 
       {
         title: "Backend",
-        skills: ["SpringBoot", "Spring Data", "Spring Security", "Spring Cloud", "Hibernate JPA", "JEE", "Laravel"]
+        skills: ["SpringBoot", "Hibernate", "Laravel"]
     },
     {
         title: "Frontend",
-        skills: ["Next JS", "React JS", "Angular", "Tailwind CSS", "Bootstrap"]
+        skills: ["Next js", "React JS", "Angular", "Tailwind CSS", "Bootstrap"]
     },
   
     {
         title: "Languages",
-        skills: ["java", "JavaScript", "TypeScript", "Python", "php", "c", "Golang"]
+        skills: ["java", "JavaScript", "TypeScript", "Python", "php", "c", "go"]
 
     },
     {
         title: "DEVOPS",
-        skills: ["Git", "GitHub", "Docker", "Kubernetes", "JUnit", "GitLab (CI/CD)", "Maven", "Postman", "Swagger"]
+        skills: ["Git", "GitHub", "Docker", "Kubernetes", "GitLab", "Maven", "Postman", "Swagger"]
     } ,
 
 
  {
         title: "DATABASES",
-        skills: ["MySQL", "SQL Server", "PostgresSQL", "Oracle Database", "MongoDB", "InfluxDB", "Elasticsearch"]
+        skills: ["MySQL", "SQL Server", "PostgresSQL", "oracle  DB", "MongoDB", "InfluxDB", "Elasticsearch"]
     } ,
      {
         title: "WEB SERVICES ",
-        skills: ["RESTful", "SOAP", "GraphQL", "gRPC"]
+        skills: ["RestFull", "Soap", "graphql", "Grpc"]
     }
 ,   {
         title: "PROJECT MANAGEMENT ",
-        skills: ["Scrum Agile", "Jira"]
+        skills: ["Scrum", "jira"]
     }
 
 ]
