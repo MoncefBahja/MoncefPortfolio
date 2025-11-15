@@ -52,17 +52,25 @@ const CertificatInfo = [
         role: "Advanced React",
         company: "Meta",
         date: "September , 2024 ",
-        desc: "I have completed an advanced React course, where I gained proficiency in JSX, React components, and advanced hooks. I learned how to efficiently render lists and forms, manage shared state with React Context, and fetch data from remote servers. I also built custom hooks, explored component composition, and implemented advanced patterns like Higher Order Components and Render Props. Additionally, I gained experience in testing React components and creating a portfolio application using React, HTML, CSS, and JavaScript",
         link: "https://www.coursera.org/account/accomplishments/verify/90XR4VGIBA6Y",
-        skills: ["Springboot", "React JS", "Angular", "Node JS", "MySQL", "MongoDB", "Microservices"]
     },
     {
         role: "Building Scalable Java Microservices with Spring Boot and Spring Cloud",
         company: "Google Cloud",
         date: "October , 2024",
-        desc: " I earned a certificate in microservices architecture, where I learned to develop Java applications with Spring Boot and Spring Cloud on Google Cloud, using services like Pub/Sub, Cloud SQL, and Spanner for data management and scalability. The course also covered configuration, tracing, and debugging Spring applications with Google Cloud Observability.",
         link: "https://www.coursera.org/account/accomplishments/verify/LFFASTAQE2M6",
-        skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
+    },
+     {
+        role: "Code Generation and Optimization Using IBM Granite",
+        company: "IBM",
+        date: "October , 2024",
+        link: "https://www.credly.com/badges/cf0d1805-2367-4a71-853c-c19b5149d10f/linked_in_profile",
+    },
+     {
+        role: "Data Classification and Summarization Using IBM Granite",
+        company: "IBM",
+        date: "October , 2024",
+        link: "http://credly.com/badges/36b514e6-a3eb-4ccb-bafd-738a41cf5f40/linked_in_profile",
     }
 ]
 
@@ -70,11 +78,11 @@ const SkillInfo = [
 
       {
         title: "Backend",
-        skills: ["Spring Boot", "Spring Data", "Spring Security", "Spring Cloud", "Hibernate JPA", "JEE", "Laravel"]
+        skills: ["SpringBoot", "Spring Data", "Spring Security", "Spring Cloud", "Hibernate JPA", "JEE", "Laravel"]
     },
     {
         title: "Frontend",
-        skills: ["NextJS", "ReactJS", "Angular", "Tailwind CSS", "Bootstrap"]
+        skills: ["Next JS", "React JS", "Angular", "Tailwind CSS", "Bootstrap"]
     },
   
     {
@@ -90,7 +98,7 @@ const SkillInfo = [
 
  {
         title: "DATABASES",
-        skills: ["MySQL", "SQL Server", "PostgreSQL", "Oracle Database", "MongoDB", "InfluxDB", "Elasticsearch"]
+        skills: ["MySQL", "SQL Server", "PostgresSQL", "Oracle Database", "MongoDB", "InfluxDB", "Elasticsearch"]
     } ,
      {
         title: "WEB SERVICES ",
@@ -106,7 +114,6 @@ const socialLinks = [
     { link: "https://github.com/MoncefBahja", icon: IconBrandGithub },
     { link: "https://www.linkedin.com/in/moncef-bahja-315328265/", icon: IconBrandLinkedin },
     { link: "https://www.instagram.com/bahjamoncef/", icon: IconBrandInstagram }, 
-   /**  { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode }*/
 ];
 
 

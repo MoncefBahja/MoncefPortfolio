@@ -4,7 +4,7 @@ import Contact from "./Contact";
 import Experience from "./Experience";
 import Footer from "./Footer";
 import Header from "./Header"
-import { Loader } from "./Loader";
+import Loader from "./Loader";
 import Mail from "./Mail";
 import Projects from "./Projects";
 import Skills from "./Skills";
@@ -18,7 +18,7 @@ const HomePage = () => {
     useEffect(()=>{
         setTimeout(()=>{
             setLoading(false);
-        }, 5000) 
+        }, 100) 
     }, [])
     return <div 
     className={` focus-visible:[&_button]:!outline-none min-h-[100dvh] ${loading?"flex":""} items-center overflow-hidden justify-center`}>
@@ -27,14 +27,14 @@ const HomePage = () => {
         <Header />
         <About />
         <Experience />
+        <Formation />
         <Projects />
         <Skills />
         <Certificat/>
-        <Formation/>
         <Contact />
         <Footer/>
         <Mail />
-        <Social />
+        <Social /> 
         </>:
         <Loader/>}
     </div>
