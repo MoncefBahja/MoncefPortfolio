@@ -119,7 +119,7 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "INTERNSHIP : Java Developer ",
+        role: "INTERNSHIP : Full Stack Developer",
         company: "Marketing confort",
         date: " 2025 - 6 months",
         image: "MJ.jpg",
@@ -128,7 +128,7 @@ const ExperienceInfo = [
 "Nexus"," Amazon S3", "Maven", "Kubernetes", "GitLab CI/CD"]
     },
      {
-        role: "INTERNSHIP : Java Developer ",
+        role: "INTERNSHIP : Full Stack Developer ",
         company: "Xhub",
         date: " 2023 - Present",
             image: "xhub_logo.jpg",
@@ -136,7 +136,7 @@ const ExperienceInfo = [
         skills: ["PHP (Laravel)", "JavaScript (React.js)", "MySQL", "Git (GitHub)", "Postman", "Docker", "Jira"]
     },
      {
-        role: "INTERNSHIP : Java Developer ",
+        role: "INTERNSHIP : Full Stack Developer ",
         company: "Atos",
         date: " 2023 - Present",
             image: "atos_logo.jpg",
@@ -146,7 +146,7 @@ const ExperienceInfo = [
 "Kubernetes", "GitLab CI/CD"]
     },
      {
-        role: "INTERNSHIP : Java Developer ",
+        role: "INTERNSHIP : Full Stack Developer ",
         company: "Agence De Voyage Qafilat Tayba",
         date: " 2023 - Present",
             image: "f.png",
