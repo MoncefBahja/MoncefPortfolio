@@ -119,9 +119,9 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "INTERNSHIP : Full Stack Developer",
+        role: "CDI : Full Stack Developer",
         company: "Marketing confort",
-        date: " 2025 - 6 months",
+        date: "  2 Years",
         image: "MJ.jpg",
         desc: "Design and implementation of microservices-based solutions for optimizing internal processes of an IT organization.",
         skills: ["Java" , "React/Next.js", "Spring (Boot, Data, Security, Cloud)"," Hibernate/JPA", "PostgreSQL", "Jira", "Swagger", "Postman",
@@ -130,29 +130,13 @@ const ExperienceInfo = [
      {
         role: "INTERNSHIP : Full Stack Developer ",
         company: "Xhub",
-        date: " 2023 - Present",
+        date: " 3 Months",
             image: "xhub_logo.jpg",
         desc: "Design and implementation of an e-commerce platform.",
         skills: ["PHP (Laravel)", "JavaScript (React.js)", "MySQL", "Git (GitHub)", "Postman", "Docker", "Jira"]
     },
-     {
-        role: "INTERNSHIP : Full Stack Developer ",
-        company: "Atos",
-        date: " 2023 - Present",
-            image: "atos_logo.jpg",
-
-        desc: "Development and maintenance of a healthcare services management application using a microservices architecture.",
-        skills: ["Java 11", "React/Redux", "Spring (Boot, MVC, Data, Security)", "Hibernate/JPA", "PostgreSQL", "Swagger", "Kafka", "Maven",
-"Kubernetes", "GitLab CI/CD"]
-    },
-     {
-        role: "INTERNSHIP : Full Stack Developer ",
-        company: "Agence De Voyage Qafilat Tayba",
-        date: " 2023 - Present",
-            image: "f.png",
-        desc: "working on the development of an application for personnel management.",
-        skills: ["php", "React JS", "SQL Server", "Visual Studio", "GitHub"]
-    },
+    
+   
 ]
 const Slugs = [
     "typescript",

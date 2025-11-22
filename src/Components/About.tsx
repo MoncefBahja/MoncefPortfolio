@@ -35,7 +35,7 @@ const About = () => {
                     <div className="text-textColor text-xl w-[90%] text-justify my-8 lg-mx:my-0 font-semibold lg-mx:text-base sm-mx:text-sm xs-mx:text-xs">{Info.bio}</div>
                   <div className="xs-mx:w-[90%] flex gap-3 xs-mx:justify-between">
                       {/* <Button onClick={open} className="focus-visible:!outline-none !text-bgColor !w-fit xs-mx:!w-[46%]" size={btn} variant="filled" color="#64FFDA">Check Resume</Button>*/ } 
-                        <Button component="a" href="CV_MONCEF_BAHJA _VF.pdf" download={Info.name} className="focus-visible:!outline-none !text-primaryColor !w-fit xs-mx:!w-[46%]" size={btn} variant="outline" color="#0969da" rightSection={<IconDownload size={20} />}>Download</Button>
+                        <Button component="a" href="CV_2025_MONCEF_BAHJA.pdf" download={Info.name} className="focus-visible:!outline-none !text-primaryColor !w-fit xs-mx:!w-[46%]" size={btn} variant="outline" color="#0969da" rightSection={<IconDownload size={20} />}>Download</Button>
                     </div> 
                 </div>
                 
